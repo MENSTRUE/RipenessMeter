@@ -1,0 +1,26 @@
+{
+  "primary_original_images": 820,
+  "primary_conflicted_source_images": 2,
+  "secondary_original_images": 673,
+  "secondary_valid_crops_before_screening": 662,
+  "eligible_samples_after_screening": 1388,
+  "quarantined_cross_split_samples": 92,
+  "cross_split_visual_duplicate_candidate_pairs": 97,
+  "exact_cross_split_pairs": 0,
+  "screening": {
+    "method": "64-bit dHash Hamming<=2 AND resized RGB mean absolute difference<=0.065 OR exact SHA256",
+    "hamming_max": 2,
+    "rgb_mae_max": 0.065,
+    "limitations": "Screening, NOT guarantee of distinct biological bananas; possible false positives/negatives"
+  },
+  "split_counts": {
+    "AnnotatedBanana_test": 67,
+    "AnnotatedBanana_train": 527,
+    "AnnotatedBanana_val": 64,
+    "BananaImageBD_test": 98,
+    "BananaImageBD_train": 528,
+    "BananaImageBD_val": 104
+  },
+  "external_invalid_box_count": 12,
+  "source_identity_leakage": "NOT fully verified"
+}

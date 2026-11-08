@@ -1,0 +1,11 @@
+{
+  "source_primary": "https://data.mendeley.com/datasets/ptfscwtnyz/2",
+  "source_external": "https://data.mendeley.com/datasets/56c75hvm7r/1",
+  "primary_release": "V2",
+  "external_release": "V1 (673 images)",
+  "kaggle_mount": "/kaggle/input/datasets/loliwibu/ripenessmeter-dataset",
+  "class_semantics": "4-stage original mapped to 3-stage product label; external YOLO classes 0,1,2",
+  "external_licence": "CC BY 4.0 reported on source page",
+  "primary_licence": "CC BY 4.0 reported on source page",
+  "audit_utc": "2026-11-08T09:43:44.212034+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "architecture": "MobileNetV3-small ImageNet pretrained",
+  "classes": [
+    "unripe",
+    "ripe",
+    "overripe"
+  ],
+  "best_epoch": 7,
+  "best_validation_macro_f1": 0.977043673012318,
+  "image_size": 224,
+  "batch_size": 32,
+  "max_epochs": 35,
+  "checkpoint_sha256": "8c6fccb462e6a427aada769ed90b531f6f06e9ed2fadb991c2683eedc1cd881f",
+  "selection_rule": "validation macro-F1 only",
+  "test_used_for_selection": false
+}

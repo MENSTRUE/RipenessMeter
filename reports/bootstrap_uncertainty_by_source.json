@@ -1,0 +1,34 @@
+{
+  "val_BananaImageBD": {
+    "distinct_parents": 104,
+    "macro_f1_ci95_percentile": [
+      0.9218451541960314,
+      0.9912038812267645
+    ],
+    "method": "500 bootstrap resamples of source image parents"
+  },
+  "val_AnnotatedBanana": {
+    "distinct_parents": 64,
+    "macro_f1_ci95_percentile": [
+      1.0,
+      1.0
+    ],
+    "method": "500 bootstrap resamples of source image parents"
+  },
+  "test_BananaImageBD": {
+    "distinct_parents": 98,
+    "macro_f1_ci95_percentile": [
+      0.8485895536465973,
+      0.9769439875730993
+    ],
+    "method": "500 bootstrap resamples of source image parents"
+  },
+  "test_AnnotatedBanana": {
+    "distinct_parents": 67,
+    "macro_f1_ci95_percentile": [
+      1.0,
+      1.0
+    ],
+    "method": "500 bootstrap resamples of source image parents"
+  }
+}

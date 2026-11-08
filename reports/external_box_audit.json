@@ -1,0 +1,4120 @@
+{
+  "images": 673,
+  "accepted_crops": 662,
+  "images_with_valid_crops": 661,
+  "invalid_boxes": [
+    {
+      "image": "test/unripe_114.jpg",
+      "line": 1,
+      "raw": "0 0.403610 0.498382 0.289890 1.137403",
+      "reason": ""
+    },
+    {
+      "image": "train/overripe_087.jpg",
+      "line": 1,
+      "raw": "2 0.504668 0.420978 0.333679 1.034736",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_037.jpg",
+      "line": 1,
+      "raw": "0 0.532075 0.469860 0.287640 1.094733",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_057.jpg",
+      "line": 1,
+      "raw": "0 0.513109 0.508382 0.303777 1.186670",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_108.jpg",
+      "line": 1,
+      "raw": "0 0.471006 0.453532 0.336148 1.128590",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_109.jpg",
+      "line": 1,
+      "raw": "0 0.483010 0.405487 0.378100 1.186980",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_110.jpg",
+      "line": 1,
+      "raw": "0 0.412750 0.501255 0.265465 1.123363",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_111.jpg",
+      "line": 1,
+      "raw": "0 0.393313 0.503220 0.249945 1.106853",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_112.jpg",
+      "line": 1,
+      "raw": "0 0.403866 0.481403 0.278807 1.115853",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_113.jpg",
+      "line": 1,
+      "raw": "0 0.394163 0.515100 0.300195 1.157993",
+      "reason": ""
+    },
+    {
+      "image": "train/unripe_168.jpg",
+      "line": 1,
+      "raw": "0 0.514265 0.459613 0.392162 1.065410",
+      "reason": ""
+    },
+    {
+      "image": "val/unripe_076.jpg",
+      "line": 1,
+      "raw": "0 0.401638 0.423408 0.348135 1.007183",
+      "reason": ""
+    }
+  ],
+  "invalid_boxes_total": 12,
+  "per_image": [
+    {
+      "image": "test/overripe_003.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_013.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_025.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_037.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_040.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/overripe_061.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/overripe_094.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/overripe_097.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/overripe_107.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/overripe_108.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/overripe_119.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_121.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_149.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_170.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/overripe_173.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/overripe_178.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/overripe_186.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/overripe_215.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/overripe_218.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/overripe_226.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_229.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_239.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_243.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_245.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/overripe_250.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/ripe_027.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/ripe_037.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/ripe_038.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/ripe_090.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/ripe_097.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/ripe_130.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 2932
+    },
+    {
+      "image": "test/ripe_132.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/ripe_136.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/ripe_143.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/ripe_149.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/ripe_166.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/ripe_177.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "test/ripe_179.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/ripe_192.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_002.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_006.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_012.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_020.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_046.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_049.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_070.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_074.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_085.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_099.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_101.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_114.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "test/unripe_119.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_123.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_125.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_128.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_129.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_136.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_142.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_143.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_153.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_160.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_163.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_177.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "test/unripe_196.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_205.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_207.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_208.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "test/unripe_211.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_001.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_002.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_004.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_005.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_006.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_007.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_008.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_009.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_012.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_014.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_015.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_016.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_017.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_018.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_019.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_021.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_022.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_023.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_024.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_026.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_027.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_028.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_029.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_030.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_031.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_032.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_033.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_034.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_035.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_036.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_038.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_039.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_041.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_043.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_044.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_045.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_046.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_047.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_048.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_049.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_050.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_051.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_052.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_053.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_054.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_055.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_056.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_057.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_058.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_059.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_060.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_062.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_064.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_065.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_066.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_067.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_068.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_069.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_070.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_071.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_073.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_074.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_075.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_076.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_077.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_078.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_079.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_080.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_081.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_082.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_083.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_084.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_085.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_086.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_087.jpg",
+      "accepted_crops": 0,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_088.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_089.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_090.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_091.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_092.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_093.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_095.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_096.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_098.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_099.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_100.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_101.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_102.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_103.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_104.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_105.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_106.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_110.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_111.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_113.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_114.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_115.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_116.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_117.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_118.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_120.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_122.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_123.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_124.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_125.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_126.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_127.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_128.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_130.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_131.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_132.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_134.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_135.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_136.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_137.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_138.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_139.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_140.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_141.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_142.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_143.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_144.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_146.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_147.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_148.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_151.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_153.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_154.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_155.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_156.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_158.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_159.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_160.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_161.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_162.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_163.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_164.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_166.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_167.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_168.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_169.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_171.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_174.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_175.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_176.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_177.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/overripe_179.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_181.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_182.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_183.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_184.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_187.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_188.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_189.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_190.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_192.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_193.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_194.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_195.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_196.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_197.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_198.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_199.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_201.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_202.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_203.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_204.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_205.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_206.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_207.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_208.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_209.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_210.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_211.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_212.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_213.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_214.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_216.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_217.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/overripe_220.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_221.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_222.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_224.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_225.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_227.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_228.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_231.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_232.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_233.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_234.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_235.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_236.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_237.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_238.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_240.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_241.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_242.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_244.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_246.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_247.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_248.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_249.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/overripe_251.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/overripe_252.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_001.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_002.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_003.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_004.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_005.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_006.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_007.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_008.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_009.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_010.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_011.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_012.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_013.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_014.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_015.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_016.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_017.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_020.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_021.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_022.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_023.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_024.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_025.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_028.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_029.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_030.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_031.jpg",
+      "accepted_crops": 2,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_032.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_033.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_034.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_035.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_036.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_039.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_040.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_041.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_042.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_043.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_044.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_045.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_047.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_048.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_049.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_050.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_051.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_052.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_053.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_054.jpg",
+      "accepted_crops": 1,
+      "width": 4042,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_055.jpg",
+      "accepted_crops": 1,
+      "width": 3853,
+      "height": 2710
+    },
+    {
+      "image": "train/ripe_056.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_057.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_058.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_059.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_060.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_061.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_062.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_063.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_064.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_065.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_066.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_067.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_069.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_070.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_071.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_072.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_074.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_075.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_076.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_079.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 2705
+    },
+    {
+      "image": "train/ripe_080.jpg",
+      "accepted_crops": 1,
+      "width": 3662,
+      "height": 2972
+    },
+    {
+      "image": "train/ripe_081.jpg",
+      "accepted_crops": 1,
+      "width": 3862,
+      "height": 2995
+    },
+    {
+      "image": "train/ripe_082.jpg",
+      "accepted_crops": 1,
+      "width": 3929,
+      "height": 2845
+    },
+    {
+      "image": "train/ripe_084.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_085.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_086.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_088.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_089.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_091.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_092.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_093.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_094.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_095.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_098.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_099.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_100.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_101.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_102.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_103.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_104.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_105.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_106.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_107.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_108.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_109.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_110.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_111.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_112.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_113.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_115.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_119.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/ripe_120.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_121.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/ripe_123.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_125.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_126.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_127.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_129.jpg",
+      "accepted_crops": 1,
+      "width": 3975,
+      "height": 2782
+    },
+    {
+      "image": "train/ripe_131.jpg",
+      "accepted_crops": 1,
+      "width": 4077,
+      "height": 2955
+    },
+    {
+      "image": "train/ripe_133.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_134.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_135.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_137.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 3590
+    },
+    {
+      "image": "train/ripe_138.jpg",
+      "accepted_crops": 1,
+      "width": 2942,
+      "height": 3706
+    },
+    {
+      "image": "train/ripe_139.jpg",
+      "accepted_crops": 1,
+      "width": 2943,
+      "height": 3845
+    },
+    {
+      "image": "train/ripe_140.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_141.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_142.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_144.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_145.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_146.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_147.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_148.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_150.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_151.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_152.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_153.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_154.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_155.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_156.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_157.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_158.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_159.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_160.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_161.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_162.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_164.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_165.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_167.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_170.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_171.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_172.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_173.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_174.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_175.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_176.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_178.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_180.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_181.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_182.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_183.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_184.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_185.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_186.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_187.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_188.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_190.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_191.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_193.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_194.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_196.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_197.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_198.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_199.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/ripe_200.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/ripe_201.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "train/unripe_001.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_003.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_004.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_005.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_008.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_009.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_010.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_011.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_013.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_014.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_015.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_016.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_017.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_018.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_019.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_021.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_022.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_023.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_024.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_025.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_026.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_027.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_028.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_029.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_030.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_031.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_032.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_033.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_034.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_035.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_036.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_037.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_038.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_039.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_040.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_041.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_042.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_043.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_044.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_045.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_047.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_048.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_051.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_053.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_054.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_055.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_056.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_057.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_058.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_059.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_060.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_061.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_062.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_063.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_064.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_065.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_066.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_067.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_068.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_069.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_071.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_072.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_073.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_078.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_079.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_080.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_082.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_087.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_088.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_089.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_090.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_091.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_092.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_093.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_094.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_095.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_097.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_098.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_100.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_102.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_103.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_104.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_105.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_106.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_108.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_109.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_110.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_111.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_112.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_113.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "train/unripe_115.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_117.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_118.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_120.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_121.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_122.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_126.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_127.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_130.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_131.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_132.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_133.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_134.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_135.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_137.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_138.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_140.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_141.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_144.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_145.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_146.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_147.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_148.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_149.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_151.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_152.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_154.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_155.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_156.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_157.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_158.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_159.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_161.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_164.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_165.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_166.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_167.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_168.jpg",
+      "accepted_crops": 0,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_169.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_170.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_171.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_172.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_174.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_175.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_176.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_178.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_179.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "train/unripe_180.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_181.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_182.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_183.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_184.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_185.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_187.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_188.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_189.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_190.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_192.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_193.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_194.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_195.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_197.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_198.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_199.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_200.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_201.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_202.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_203.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_204.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_206.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_209.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_210.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_212.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_213.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_215.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_216.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_217.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_218.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_219.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "train/unripe_220.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/overripe_010.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/overripe_011.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/overripe_020.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_042.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/overripe_063.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_072.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_109.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "val/overripe_112.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_129.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_133.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_145.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_150.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_152.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_157.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_165.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_172.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/overripe_180.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_185.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_191.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_200.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_219.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/overripe_223.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/overripe_230.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_018.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_019.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_026.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/ripe_046.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/ripe_068.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_073.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_077.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_078.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_083.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_087.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_096.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_114.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_116.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_117.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_118.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/ripe_122.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_124.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/ripe_128.jpg",
+      "accepted_crops": 1,
+      "width": 4079,
+      "height": 2880
+    },
+    {
+      "image": "val/ripe_163.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "val/ripe_168.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "val/ripe_169.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "val/ripe_189.jpg",
+      "accepted_crops": 1,
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "image": "val/ripe_195.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_007.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_050.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_052.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_075.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/unripe_076.jpg",
+      "accepted_crops": 0,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/unripe_077.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_081.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_083.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/unripe_084.jpg",
+      "accepted_crops": 1,
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "image": "val/unripe_086.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_096.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_107.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_116.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_124.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_139.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_150.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_162.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_173.jpg",
+      "accepted_crops": 1,
+      "width": 4080,
+      "height": 3072
+    },
+    {
+      "image": "val/unripe_186.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_191.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "image": "val/unripe_214.jpg",
+      "accepted_crops": 1,
+      "width": 3000,
+      "height": 4000
+    }
+  ]
+}

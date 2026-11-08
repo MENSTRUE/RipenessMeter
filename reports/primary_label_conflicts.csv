@@ -1,0 +1,3 @@
+path,source,native_label,label,image_sha256,source_rel,w,h
+/kaggle/input/datasets/loliwibu/ripenessmeter-dataset/banana_raw/Ripe/Ripe_6.jpg,BananaImageBD,Ripe,ripe,60cdc07ffa5dcd15ad54858ef55954bef6aaf82a26243cd5d54debf664c925ff,Ripe/Ripe_6.jpg,256,256
+/kaggle/input/datasets/loliwibu/ripenessmeter-dataset/banana_raw/Semi-ripe/Semi_ripe_81.jpg,BananaImageBD,Semi-ripe,unripe,60cdc07ffa5dcd15ad54858ef55954bef6aaf82a26243cd5d54debf664c925ff,Semi-ripe/Semi_ripe_81.jpg,256,256
