@@ -1,0 +1,3 @@
+# Frontend agent rules
+
+Extend root [`AGENTS.md`](../AGENTS.md). Treat `src/App.tsx` and `vite.config.ts` as authoritative. Current dev server listens on 5181 and proxies `/api` to backend 8011. Preserve MIME/size checks, request abort/timeout, readiness-based disabled Analyze state, error messages, URL cleanup, accessible interactions and three-stage score display. No fabricated fallback predictions. Do not claim score calibration, persistent image deletion, production deployment, user history or automated grading without evidence. Run `npm run build`; update both languages' docs for visible behavior/API changes.

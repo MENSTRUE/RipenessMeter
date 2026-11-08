@@ -1,0 +1,15 @@
+{
+  "files_generated": 34,
+  "markdown_links_checked": 161,
+  "unresolved_internal_links": [],
+  "existing_repo_files_overwritten_in_package": [
+    "README.md",
+    "AGENTS.md",
+    "backend/README.md",
+    "frontend/README.md",
+    "reports/README.md"
+  ],
+  "model_checkpoint_included": false,
+  "source_of_truth": "GitHub MENSTRUE/RipenessMeter current main, 2026-11-08",
+  "license_modified": false
+}
