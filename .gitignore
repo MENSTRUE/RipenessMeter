@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Dataset directories
+datasets/
+dataset/
+data/raw/
+data/interim/
+data/processed/
+
+# Dataset archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# ML checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.tflite
+
+# Experiment outputs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+.ipynb_checkpoints/
+
+# Kaggle cache
+kaggle/working/
+crop_cache/
+tile_cache/
+
+# Frontend
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.vite/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary
+*.tmp
+*.log
+*.bak
